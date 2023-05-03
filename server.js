@@ -9,8 +9,10 @@ connectDB()
 const server = app.listen(PORT, () => {
     console.clear()
     console.log(`Server Connected to port ${PORT}`)
-}
-)
+})
+
+app.use("/api/auth", require("./Auth/route"))
+
 // Handling Error
 process.on("unhandledRejection", err => {
     console.log(`An error occurred: ${err.message}`)
