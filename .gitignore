@@ -1,0 +1,15 @@
+endDir/.gitignore
+endDir/db.js
+endDir/package-lock.json
+endDir/package.json
+endDir/README.md
+endDir/server.js
+endDir/Auth/auth.js
+endDir/Auth/route.js
+endDir/middleware/auth.js
+endDir/model/User.js
+endDir/views/admin.ejs
+endDir/views/home.ejs
+endDir/views/login.ejs
+endDir/views/register.ejs
+endDir/views/user.ejs
